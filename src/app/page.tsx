@@ -46,7 +46,7 @@ export default function Login() {
           <div className={`${flexColumn}`}>
             <ButtonSection buttonTitle={'Login'} />
 
-            <Link href="/register" className={`${linkStyle}`}>Don't Have an Account? <strong className={`ml-1 ${poppinsMinor.className}`}>Register</strong></Link>
+            <Link href="/register" className={`${linkStyle}`}>{`Don't Have an Account? `}<strong className={`ml-1 ${poppinsMinor.className}`}>Register</strong></Link>
           </div>
         </form>
       </div>
